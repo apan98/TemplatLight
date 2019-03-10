@@ -20,7 +20,3 @@ spring:
     out-of-order: true
     placeholders:
       application_user: ${DB_USER:postgres}
-
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  config-location: classpath:mybatis-config.xml
